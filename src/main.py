@@ -5,15 +5,15 @@ import numpy as np
 
 # Gender Model Paths
 GENDER_MODEL = (
-    r"D:\Projects\machine-learning\age-gender-detection\models\deploy_gender.prototxt"
+    r"D:\Projects\machine-learning\gender-detection\models\deploy_gender.prototxt"
 )
 GENDER_PROTO = (
-    r"D:\Projects\machine-learning\age-gender-detection\models\gender_net.caffemodel"
+    r"D:\Projects\machine-learning\gender-detection\models\gender_net.caffemodel"
 )
 
 # Face Model Paths
-FACE_PROTO = r"D:\Projects\machine-learning\age-gender-detection\models\deploy.prototxt"
-FACE_MODEL = r"D:\Projects\machine-learning\age-gender-detection\models\res10_300x300_ssd_iter_140000_fp16.caffemodel"
+FACE_PROTO = r"D:\Projects\machine-learning\gender-detection\models\deploy.prototxt"
+FACE_MODEL = r"D:\Projects\machine-learning\gender-detection\models\res10_300x300_ssd_iter_140000_fp16.caffemodel"
 
 # Mean values (got by trial and error)
 MODEL_MEAN_VALUES = (78.4263377603, 87.7689143744, 114.895847746)
@@ -173,7 +173,7 @@ def predict_gender(input_path: str, test_num: int):
 
         # Save Image
         path = (
-            r"D:\Projects\machine-learning\age-gender-detection\tests\output"
+            r"D:\Projects\machine-learning\gender-detection\tests\output"
             + "-"
             + test_num.__str__()
             + ".jpg"
@@ -185,6 +185,6 @@ def predict_gender(input_path: str, test_num: int):
 
 
 # Top Level
-PATH_TO_IMAGE = r"D:\Projects\machine-learning\age-gender-detection\tests\9.jpg"
-TEST_NUMBER = 9
+PATH_TO_IMAGE = r"D:\Projects\machine-learning\gender-detection\tests\16.jpg"
+TEST_NUMBER = 16
 predict_gender(PATH_TO_IMAGE, test_num=TEST_NUMBER)
