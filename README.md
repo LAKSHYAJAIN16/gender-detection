@@ -4,7 +4,7 @@ This is a small test I made using python to do gender detection
 ## Snapshots
 ![13](https://raw.githubusercontent.com/LAKSHYAJAIN16/gender-detection/main/tests/output-13.jpg)
 ---
-![12](https://raw.githubusercontent.com/LAKSHYAJAIN16/gender-detection/main/tests/output-13.jpg)
+![12](https://raw.githubusercontent.com/LAKSHYAJAIN16/gender-detection/main/tests/output-12.jpg)
 ---
 ![2](https://raw.githubusercontent.com/LAKSHYAJAIN16/gender-detection/main/tests/output-2.jpg)
 ---
