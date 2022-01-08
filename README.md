@@ -17,7 +17,7 @@ Pretty Accurate, but with masked or covered faces is messes up. Like  it says Ba
 <br>
 ![batman](https://raw.githubusercontent.com/LAKSHYAJAIN16/gender-detection/main/tests/output-9.jpg)
 ---
-Also, with multiple people, sometime's it bugs out.
+Also, with multiple people, sometimes it bugs out.
 <br>
 ![people](https://raw.githubusercontent.com/LAKSHYAJAIN16/gender-detection/main/tests/output-15.jpg)
 ---
